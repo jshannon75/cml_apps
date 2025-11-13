@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator with Globe</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2rem;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 0.9rem;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .size-group {
+            margin-bottom: 25px;
+        }
+
+        input[type="range"] {
+            width: 100%;
+            height: 6px;
+            border-radius: 3px;
+            background: #e0e0e0;
+            outline: none;
+            -webkit-appearance: none;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: #667eea;
+            cursor: pointer;
+        }
+
+        input[type="range"]::-moz-range-thumb {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            background: #667eea;
+            cursor: pointer;
+            border: none;
+        }
+
+        .size-value {
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin-bottom: 20px;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        .download-btn {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            margin-top: 15px;
+        }
+
+        .download-btn:hover {
+            box-shadow: 0 5px 15px rgba(245, 87, 108, 0.4);
+        }
+
+        .download-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .download-btn:disabled:hover {
+            box-shadow: none;
+        }
+
+        #qrcode {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 200px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            position: relative;
+        }
+
+        #qrcode canvas,
+        #qrcode img {
+            border-radius: 8px;
+        }
+
+        #globeIcon {
+            position: absolute;
+            width: 20%;
+            height: auto;
+            pointer-events: none;
+            background: white;
+            border-radius: 50%;
+            padding: 5px;
+        }
+
+        .empty-state {
+            color: #999;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>QR Code Generator 🌍</h1>
+        <p class="subtitle">Enter text or URL to create your QR code with a globe icon</p>
+        
+        <div class="input-group">
+            <label for="text">Text or URL</label>
+            <input type="text" id="text" placeholder="https://example.com" value="https://example.com">
+        </div>
+
+        <div class="size-group">
+            <label>Size: <span class="size-value" id="sizeValue">256</span>px</label>
+            <input type="range" id="size" min="128" max="512" value="256" step="32">
+        </div>
+
+        <button onclick="generateQR()">Generate QR Code</button>
+
+        <div id="qrcode">
+            <div class="empty-state">Your QR code will appear here</div>
+            <img id="globeIcon" src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Globe Icon" style="display: none;">
+        </div>
+
+        <button class="download-btn" id="downloadBtn" onclick="downloadQR()" disabled>Download PNG</button>
+    </div>
+
+    <script>
+        let qrcode = null;
+
+        function generateQR() {
+            const text = document.getElementById('text').value;
+            const size = parseInt(document.getElementById('size').value);
+            const qrcodeDiv = document.getElementById('qrcode');
+            const globeIcon = document.getElementById('globeIcon');
+            const downloadBtn = document.getElementById('downloadBtn');
+            
+            if (!text) {
+                alert('Please enter text or URL');
+                return;
+            }
+
+            // Clear ALL previous content except the globe icon
+            globeIcon.style.display = 'none';
+            while (qrcodeDiv.firstChild && qrcodeDiv.firstChild !== globeIcon) {
+                qrcodeDiv.removeChild(qrcodeDiv.firstChild);
+            }
+            // Remove any remaining elements that aren't the globe
+            const children = Array.from(qrcodeDiv.children);
+            children.forEach(child => {
+                if (child !== globeIcon) {
+                    qrcodeDiv.removeChild(child);
+                }
+            });
+
+            qrcode = new QRCode(qrcodeDiv, {
+                text: text,
+                width: size,
+                height: size,
+                colorDark: '#000000',
+                colorLight: '#ffffff',
+                correctLevel: QRCode.CorrectLevel.H
+            });
+
+            // Wait for QR to render, then overlay globe
+            setTimeout(() => {
+                globeIcon.style.display = 'block';
+                globeIcon.style.width = (size * 0.2) + 'px';
+                downloadBtn.disabled = false;
+            }, 300);
+        }
+
+        function downloadQR() {
+            const canvas = document.querySelector('#qrcode canvas');
+            const img = document.querySelector('#qrcode img:not(#globeIcon)');
+            const globeIcon = document.getElementById('globeIcon');
+            
+            const qrElement = canvas || img;
+            if (!qrElement) return;
+
+            // Create a temporary canvas to merge QR and globe
+            const tempCanvas = document.createElement('canvas');
+            const size = canvas ? canvas.width : parseInt(document.getElementById('size').value);
+            tempCanvas.width = size;
+            tempCanvas.height = size;
+            const ctx = tempCanvas.getContext('2d');
+
+            // Draw QR code
+            ctx.drawImage(qrElement, 0, 0, size, size);
+
+            // Draw globe icon on top
+            if (globeIcon.complete && globeIcon.style.display !== 'none') {
+                const globeSize = size * 0.2;
+                const x = (size - globeSize) / 2;
+                const y = (size - globeSize) / 2;
+                
+                // Draw white circle background
+                ctx.fillStyle = 'white';
+                ctx.beginPath();
+                ctx.arc(size / 2, size / 2, globeSize / 2 + 5, 0, Math.PI * 2);
+                ctx.fill();
+                
+                // Draw globe icon
+                ctx.drawImage(globeIcon, x, y, globeSize, globeSize);
+            }
+
+            // Download merged image
+            const link = document.createElement('a');
+            link.download = 'qrcode-with-globe.png';
+            link.href = tempCanvas.toDataURL('image/png');
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        document.getElementById('size').addEventListener('input', function() {
+            document.getElementById('sizeValue').textContent = this.value;
+        });
+
+        document.getElementById('text').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                generateQR();
+            }
+        });
+
+        window.onload = function() {
+            generateQR();
+        };
+    </script>
+</body>
+</html>
