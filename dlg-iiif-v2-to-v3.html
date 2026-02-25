@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>IIIF v2 → v3 Converter</title>
+<style>
+  body { font-family: Arial, sans-serif; margin: 40px; }
+  #dropZone {
+    border: 2px dashed #999;
+    padding: 40px;
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  #dropZone.dragover {
+    border-color: #000;
+    color: #000;
+  }
+  textarea {
+    width: 100%;
+    height: 200px;
+    font-family: monospace;
+  }
+  button {
+    margin-top: 10px;
+    padding: 8px 12px;
+  }
+  pre {
+    background: #f5f5f5;
+    padding: 15px;
+    overflow-x: auto;
+    max-height: 400px;
+  }
+</style>
+</head>
+<body>
+
+<h2>IIIF Presentation 2 → 3 Converter</h2>
+
+This page converts IIIF manifests from the <a href="https://dlg.usg.edu/" target="_blank">Digital Library of Georgia</a> to a format compatible with IIIF viewers such as <a href="https://allmaps.org/" target="_blank">Allmaps</a>. Simply download/save the existing json code to a file and upload here.
+  
+<div id="dropZone">Drag & Drop IIIF JSON File Here</div>
+
+<p>Or paste JSON below:</p>
+<textarea id="input"></textarea>
+<br>
+<button onclick="convert()">Convert</button>
+<button onclick="download()">Download Converted Manifest</button>
+
+<h3>Converted Output</h3>
+<pre id="output"></pre>
+
+<script>
+let convertedManifest = null;
+
+const dropZone = document.getElementById("dropZone");
+
+dropZone.addEventListener("dragover", (e) => {
+  e.preventDefault();
+  dropZone.classList.add("dragover");
+});
+
+dropZone.addEventListener("dragleave", () => {
+  dropZone.classList.remove("dragover");
+});
+
+dropZone.addEventListener("drop", (e) => {
+  e.preventDefault();
+  dropZone.classList.remove("dragover");
+
+  const file = e.dataTransfer.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = function(evt) {
+    document.getElementById("input").value = evt.target.result;
+    convert();
+  };
+  reader.readAsText(file);
+});
+
+function convert() {
+  try {
+    const oldManifest = JSON.parse(document.getElementById("input").value);
+    convertedManifest = transformManifest(oldManifest);
+    document.getElementById("output").textContent =
+      JSON.stringify(convertedManifest, null, 2);
+  } catch (err) {
+    document.getElementById("output").textContent = "Error: " + err.message;
+  }
+}
+
+function download() {
+  if (!convertedManifest) return;
+
+  const blob = new Blob(
+    [JSON.stringify(convertedManifest, null, 2)],
+    { type: "application/json" }
+  );
+
+  const link = document.createElement("a");
+  link.href = URL.createObjectURL(blob);
+  link.download = "iiif-v3-manifest.json";
+  link.click();
+}
+
+function transformManifest(old) {
+  const manifest = {
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    id: old["@id"] || old.id,
+    type: "Manifest",
+    label: toLangMap(old.label),
+    rights: old.license || old.rights || undefined,
+    items: []
+  };
+
+  if (old.sequences && old.sequences.length > 0) {
+    const seq = old.sequences[0];
+    if (seq.canvases) {
+      manifest.items = seq.canvases.map(transformCanvas);
+    }
+  }
+
+  return manifest;
+}
+
+function transformCanvas(canvas) {
+  const newCanvas = {
+    id: canvas["@id"] || canvas.id,
+    type: "Canvas",
+    label: toLangMap(canvas.label),
+    height: Number(canvas.height),
+    width: Number(canvas.width),
+    items: []
+  };
+
+  if (canvas.images && canvas.images.length > 0) {
+    const page = {
+      id: newCanvas.id + "/page/1",
+      type: "AnnotationPage",
+      items: canvas.images.map(img =>
+        transformAnnotation(img, newCanvas.id)
+      )
+    };
+    newCanvas.items.push(page);
+  }
+
+  return newCanvas;
+}
+
+function transformAnnotation(annotation, canvasId) {
+  const resource = annotation.resource || annotation.body;
+
+  return {
+    id: annotation["@id"] || annotation.id,
+    type: "Annotation",
+    motivation: "painting",
+    target: canvasId,
+    body: {
+      id: resource["@id"] || resource.id,
+      type: "Image",
+      format: resource.format || "image/jpeg",
+      height: Number(resource.height),
+      width: Number(resource.width),
+      service: resource.service
+        ? [{
+            id: resource.service["@id"] || resource.service.id,
+            type: "ImageService2",
+            profile: "level1"
+          }]
+        : undefined
+    }
+  };
+}
+
+function toLangMap(label) {
+  if (!label) return undefined;
+
+  if (typeof label === "string") {
+    return { en: [label] };
+  }
+
+  if (Array.isArray(label)) {
+    return { en: label };
+  }
+
+  if (label["@value"]) {
+    return { en: [label["@value"]] };
+  }
+
+  return label;
+}
+</script>
+
+</body>
+</html>
+
