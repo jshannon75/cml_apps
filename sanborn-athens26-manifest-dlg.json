@@ -1,0 +1,3297 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/presentation/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Insurance Maps of Athens, Clarke Co., Georgia, including Barnett Shoals, High Shoals, and White Hall, 1926 / published by the Sanborn Map Company of New York, Sanborn Fire Insurance Maps for Georgia Towns and Cities, 1884-1941, University of Georgia. Map and Government Information Library"
+    ]
+  },
+  "summary": {
+    "en": [
+      "Fire insurance maps which show building construction by hand coloring, locations of elevators, windows and doors, and available water facilities. Shows commercial and religious occupancy of buildings, dwellings with property boundaries, and house and block numbers. Includes notes on population, water facilities, fire department, and prevailing winds. The Sanborn Maps database is a project of the Digital Library of Georgia as part of Georgia HomePLACE. The project is supported with federal LSTA funds administered by the Institute of Museum and Library Services through the Georgia Public Library Service, a unit of the Board of Regents of the University System of Georgia. The maps represented are from the University of Georgia Libraries Map Collection."
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Title"
+        ]
+      },
+      "value": {
+        "en": [
+          "Insurance Maps of Athens, Clarke Co., Georgia, including Barnett Shoals, High Shoals, and White Hall, 1926 / published by the Sanborn Map Company of New York"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Holding Institution"
+        ]
+      },
+      "value": {
+        "en": [
+          "University of Georgia. Map and Government Information Library"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Online Collection"
+        ]
+      },
+      "value": {
+        "en": [
+          "Sanborn Fire Insurance Maps for Georgia Towns and Cities, 1884-1941"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Creator"
+        ]
+      },
+      "value": {
+        "en": [
+          "Sanborn Map Company"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ]
+      },
+      "value": {
+        "en": [
+          "1926"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Subject"
+        ]
+      },
+      "value": {
+        "en": [
+          "Athens (Ga.)--Maps<br>Clarke County (Ga.)--Maps<br>Insurance, Fire--Georgia--Athens--Maps<br>Insurance, Fire--Georgia--Clarke County--Maps"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Location"
+        ]
+      },
+      "value": {
+        "en": [
+          "United States, Georgia, Clarke County, Athens, 33.96095, -83.37794"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Medium"
+        ]
+      },
+      "value": {
+        "en": [
+          "fire insurance maps"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Type"
+        ]
+      },
+      "value": {
+        "en": [
+          "StillImage"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "File format"
+        ]
+      },
+      "value": {
+        "en": [
+          "image/jp2"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Description"
+        ]
+      },
+      "value": {
+        "en": [
+          "Fire insurance maps which show building construction by hand coloring, locations of elevators, windows and doors, and available water facilities. Shows commercial and religious occupancy of buildings, dwellings with property boundaries, and house and block numbers. Includes notes on population, water facilities, fire department, and prevailing winds. The Sanborn Maps database is a project of the Digital Library of Georgia as part of Georgia HomePLACE. The project is supported with federal LSTA funds administered by the Institute of Museum and Library Services through the Georgia Public Library Service, a unit of the Board of Regents of the University System of Georgia. The maps represented are from the University of Georgia Libraries Map Collection."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Extent"
+        ]
+      },
+      "value": {
+        "en": [
+          "1 map on 44 sheets"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "DLG record ID"
+        ]
+      },
+      "value": {
+        "en": [
+          "dlg_sanb_athens-1926"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Metadata URL"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://dlg.usg.edu/record/dlg_sanb_athens-1926"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Digital Object URL"
+        ]
+      },
+      "value": {
+        "en": [
+          "https://dlg.usg.edu/record/dlg_sanb_athens-1926#item"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Language"
+        ]
+      },
+      "value": {
+        "en": [
+          "eng"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Rights"
+        ]
+      },
+      "value": {
+        "en": [
+          "<a href=\"http://rightsstatements.org/vocab/NoC-US/1.0/\"><img alt=\"Rights Statement information\" src=\"https://dlg.usg.edu/assets/rs_org_icons/NoC-US.dark-white-interior-blue-type-c4099cb6cb8549ec1f192f62974a29796e78df3e210f390fc359e086cf3c6322.svg\" /></a><br>\"Sanborn,\" \"Sanborn Map,\" \"Sanborn Map Company,\" and \"Sanborn Fire Insurance Maps\" are recognized trademarks of the Sanborn Map Company, a subsidiary of Environmental Data Resources, Inc. (EDR). The presentation of the historic maps on this site is in no way connected with either the Sanborn Map Company or Environmental Data Resources, Inc."
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Portal"
+        ]
+      },
+      "value": {
+        "en": [
+          "The Digital Library of Georgia"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "en": [
+        "University of Georgia. Map and Government Information Library. \"Sanborn,\" \"Sanborn Map,\" \"Sanborn Map Company,\" and \"Sanborn Fire Insurance Maps\" are recognized trademarks of the Sanborn Map Company, a subsidiary of Environmental Data Resources, Inc. (EDR). The presentation of the historic maps on this site is in no way connected with either the Sanborn Map Company or Environmental Data Resources, Inc."
+      ]
+    }
+  },
+  "logo": [
+    {
+      "id": "https://dlg.usg.edu/uploads/holding_institution/537/image/record_image.jpg",
+      "type": "Image"
+    }
+  ],
+  "seeAlso": [
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926.json",
+      "type": "Dataset",
+      "format": "application/json"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "1"
+        ]
+      },
+      "height": 9886,
+      "width": 8359,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00001.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4708 x 5544px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/1/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00001.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9886,
+                "width": 8359,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00001.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8359,
+                    "height": 9886
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "2"
+        ]
+      },
+      "height": 9866,
+      "width": 8359,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00002.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4715 x 5544px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/2/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/2/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00002.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9866,
+                "width": 8359,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00002.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8359,
+                    "height": 9866
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/3",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "3"
+        ]
+      },
+      "height": 9886,
+      "width": 8359,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00003.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4708 x 5571px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/3/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/3/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00003.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9886,
+                "width": 8359,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00003.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8359,
+                    "height": 9886
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/4",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "4"
+        ]
+      },
+      "height": 9855,
+      "width": 8337,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00004.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4694 x 5557px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/4/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/4/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00004.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9855,
+                "width": 8337,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00004.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8337,
+                    "height": 9855
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/5",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "5"
+        ]
+      },
+      "height": 9912,
+      "width": 8366,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00005.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4715 x 5564px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/5/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/5/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00005.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9912,
+                "width": 8366,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00005.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8366,
+                    "height": 9912
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/6",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "6"
+        ]
+      },
+      "height": 9912,
+      "width": 8366,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00006.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4729 x 5557px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/6/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/6/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00006.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9912,
+                "width": 8366,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00006.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8366,
+                    "height": 9912
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/7",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "7"
+        ]
+      },
+      "height": 9912,
+      "width": 8387,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00007.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4729 x 5578px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/7/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/7/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00007.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9912,
+                "width": 8387,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00007.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8387,
+                    "height": 9912
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/8",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "8"
+        ]
+      },
+      "height": 9923,
+      "width": 8387,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00008.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4708 x 5564px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/8/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/8/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00008.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9923,
+                "width": 8387,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00008.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8387,
+                    "height": 9923
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/9",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "9"
+        ]
+      },
+      "height": 9923,
+      "width": 8409,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00009.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4694 x 5551px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/9/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/9/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00009.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9923,
+                "width": 8409,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00009.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8409,
+                    "height": 9923
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/10",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "10"
+        ]
+      },
+      "height": 9923,
+      "width": 8409,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00010.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4708 x 5578px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/10/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/10/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00010.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9923,
+                "width": 8409,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00010.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8409,
+                    "height": 9923
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/11",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "11"
+        ]
+      },
+      "height": 9923,
+      "width": 8409,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00011.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4701 x 5571px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/11/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/11/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00011.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9923,
+                "width": 8409,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00011.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8409,
+                    "height": 9923
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/12",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "12"
+        ]
+      },
+      "height": 9925,
+      "width": 8409,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00012.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4729 x 5578px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/12/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/12/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00012.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9925,
+                "width": 8409,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00012.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8409,
+                    "height": 9925
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/13",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "13"
+        ]
+      },
+      "height": 9935,
+      "width": 8409,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00013.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4708 x 5571px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/13/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/13/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00013.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9935,
+                "width": 8409,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00013.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8409,
+                    "height": 9935
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/14",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "14"
+        ]
+      },
+      "height": 9957,
+      "width": 8424,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00014.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4680 x 5571px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/14/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/14/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00014.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9957,
+                "width": 8424,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00014.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8424,
+                    "height": 9957
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/15",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "15"
+        ]
+      },
+      "height": 9957,
+      "width": 8424,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00015.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4680 x 5578px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/15/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/15/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00015.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9957,
+                "width": 8424,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00015.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8424,
+                    "height": 9957
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/16",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "16"
+        ]
+      },
+      "height": 9969,
+      "width": 8427,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00016.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4701 x 5564px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/16/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/16/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00016.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9969,
+                "width": 8427,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00016.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8427,
+                    "height": 9969
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/17",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "17"
+        ]
+      },
+      "height": 9969,
+      "width": 8427,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00017.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4687 x 5564px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/17/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/17/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00017.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9969,
+                "width": 8427,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00017.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8427,
+                    "height": 9969
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/18",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "18"
+        ]
+      },
+      "height": 9920,
+      "width": 8415,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00018.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4722 x 5578px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/18/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/18/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00018.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9920,
+                "width": 8415,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00018.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8415,
+                    "height": 9920
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/19",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "19"
+        ]
+      },
+      "height": 9920,
+      "width": 8415,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00019.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4729 x 5557px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/19/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/19/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00019.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9920,
+                "width": 8415,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00019.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8415,
+                    "height": 9920
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/20",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "20"
+        ]
+      },
+      "height": 9920,
+      "width": 8415,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00020.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4694 x 5571px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/20/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/20/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00020.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9920,
+                "width": 8415,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00020.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8415,
+                    "height": 9920
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/21",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "21"
+        ]
+      },
+      "height": 9936,
+      "width": 8415,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00021.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4722 x 5585px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/21/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/21/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00021.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9936,
+                "width": 8415,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00021.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8415,
+                    "height": 9936
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/22",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "22"
+        ]
+      },
+      "height": 9951,
+      "width": 8395,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00022.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4708 x 5585px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/22/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/22/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00022.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9951,
+                "width": 8395,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00022.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8395,
+                    "height": 9951
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/22"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/23",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "23"
+        ]
+      },
+      "height": 9951,
+      "width": 8395,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00023.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4722 x 5571px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/23/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/23/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00023.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9951,
+                "width": 8395,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00023.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8395,
+                    "height": 9951
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/24",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "24"
+        ]
+      },
+      "height": 9971,
+      "width": 8427,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00024.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4715 x 5585px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/24/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/24/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00024.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9971,
+                "width": 8427,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00024.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8427,
+                    "height": 9971
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/25",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "25"
+        ]
+      },
+      "height": 9926,
+      "width": 8390,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00025.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4722 x 5578px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/25/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/25/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00025.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9926,
+                "width": 8390,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00025.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8390,
+                    "height": 9926
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/25"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/26",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "26"
+        ]
+      },
+      "height": 9921,
+      "width": 8390,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00026.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4715 x 5578px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/26/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/26/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00026.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9921,
+                "width": 8390,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00026.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8390,
+                    "height": 9921
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/27",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "27"
+        ]
+      },
+      "height": 9950,
+      "width": 8409,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00027.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4715 x 5578px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/27/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/27/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00027.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9950,
+                "width": 8409,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00027.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8409,
+                    "height": 9950
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/28",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "28"
+        ]
+      },
+      "height": 9950,
+      "width": 8409,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00028.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4715 x 5585px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/28/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/28/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00028.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9950,
+                "width": 8409,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00028.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8409,
+                    "height": 9950
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/28"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/29",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "29"
+        ]
+      },
+      "height": 9967,
+      "width": 8409,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00029.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4722 x 5585px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/29/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/29/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00029.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9967,
+                "width": 8409,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00029.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8409,
+                    "height": 9967
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/30",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "30"
+        ]
+      },
+      "height": 9967,
+      "width": 8409,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00030.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4736 x 5578px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/30/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/30/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00030.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9967,
+                "width": 8409,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00030.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8409,
+                    "height": 9967
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/31",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "31"
+        ]
+      },
+      "height": 9931,
+      "width": 8409,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00031.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4715 x 5564px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/31/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/31/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00031.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9931,
+                "width": 8409,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00031.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8409,
+                    "height": 9931
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/32",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "32"
+        ]
+      },
+      "height": 9931,
+      "width": 8409,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00032.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4729 x 5571px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/32/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/32/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00032.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9931,
+                "width": 8409,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00032.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8409,
+                    "height": 9931
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/32"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/33",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "33"
+        ]
+      },
+      "height": 9931,
+      "width": 8420,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00033.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4715 x 5571px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/33/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/33/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00033.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9931,
+                "width": 8420,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00033.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8420,
+                    "height": 9931
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/33"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/34",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "34"
+        ]
+      },
+      "height": 9934,
+      "width": 8424,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00034.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4715 x 5571px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/34/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/34/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00034.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9934,
+                "width": 8424,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00034.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8424,
+                    "height": 9934
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/34"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/35",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "35"
+        ]
+      },
+      "height": 9934,
+      "width": 8424,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00035.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4722 x 5564px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/35/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/35/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00035.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9934,
+                "width": 8424,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00035.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8424,
+                    "height": 9934
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/36",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "36"
+        ]
+      },
+      "height": 9969,
+      "width": 8424,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00036.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4722 x 5578px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/36/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/36/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00036.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9969,
+                "width": 8424,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00036.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8424,
+                    "height": 9969
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/36"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/37",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "37"
+        ]
+      },
+      "height": 9969,
+      "width": 8424,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00037.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4701 x 5558px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/37/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/37/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00037.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9969,
+                "width": 8424,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00037.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8424,
+                    "height": 9969
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/37"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/38",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "38"
+        ]
+      },
+      "height": 9969,
+      "width": 8424,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00038.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4701 x 5578px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/38/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/38/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00038.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9969,
+                "width": 8424,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00038.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8424,
+                    "height": 9969
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/38"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/39",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "39"
+        ]
+      },
+      "height": 9969,
+      "width": 8424,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00039.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4729 x 5564px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/39/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/39/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00039.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9969,
+                "width": 8424,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00039.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8424,
+                    "height": 9969
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/39"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/40",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "40"
+        ]
+      },
+      "height": 9969,
+      "width": 8424,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00040.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4715 x 5571px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/40/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/40/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00040.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9969,
+                "width": 8424,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00040.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8424,
+                    "height": 9969
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/41",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "41"
+        ]
+      },
+      "height": 9937,
+      "width": 8424,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00041.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4715 x 5571px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/41/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/41/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00041.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9937,
+                "width": 8424,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00041.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8424,
+                    "height": 9937
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/41"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/42",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "42"
+        ]
+      },
+      "height": 9937,
+      "width": 8449,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00042.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4722 x 5578px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/42/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/42/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00042.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9937,
+                "width": 8449,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00042.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8449,
+                    "height": 9937
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/43",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "43"
+        ]
+      },
+      "height": 9937,
+      "width": 8449,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00043.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4722 x 5578px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/43/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/43/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00043.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9937,
+                "width": 8449,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00043.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8449,
+                    "height": 9937
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/43"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/44",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "44"
+        ]
+      },
+      "height": 9953,
+      "width": 8449,
+      "rendering": [
+        {
+          "id": "https://dlg.usg.edu/images/iiif/2/dlg%2Fdlg%2Fsanb%2Fdlg_sanb_athens-1926%2Fdlg_sanb_athens-1926-00044.jp2/full/full/0/default.jpg?download=true",
+          "type": "Text",
+          "label": {
+            "en": [
+              "Full size image (4715 x 5564px)"
+            ]
+          },
+          "format": "image/jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/44/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/annotation/44/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00044.jp2",
+                "type": "Image",
+                "format": "image/jp2",
+                "height": 9953,
+                "width": 8449,
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "id": "https://dlg-sanborn-patch.itspangler.workers.dev/iiif/dlg/dlg/sanb/dlg_sanb_athens-1926/dlg_sanb_athens-1926-00044.jp2",
+                    "type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json",
+                    "tiles": [
+                      {
+                        "width": 256,
+                        "height": 256,
+                        "scaleFactors": [
+                          1,
+                          2,
+                          4,
+                          8,
+                          16,
+                          32,
+                          64
+                        ]
+                      }
+                    ],
+                    "width": 8449,
+                    "height": 9953
+                  }
+                ]
+              },
+              "target": "https://dlg.usg.edu/record/dlg_sanb_athens-1926/canvas/44"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
