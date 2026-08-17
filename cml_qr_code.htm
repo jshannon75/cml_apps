@@ -72,7 +72,7 @@
         }
 
         .size-group {
-            margin-bottom: 25px;
+            margin-bottom: 20px;
         }
 
         input[type="range"] {
@@ -226,11 +226,16 @@
         #qrcode canvas,
         #qrcode img {
             border-radius: 8px;
+            max-width: 100%;
         }
 
         .empty-state {
             color: #999;
             text-align: center;
+        }
+
+        #tempQrHolder {
+            display: none;
         }
     </style>
 </head>
@@ -244,8 +249,18 @@
             <input type="text" id="text" placeholder="https://communitymappinglab.org" value="https://communitymappinglab.org">
         </div>
 
+        <div class="input-group">
+            <label for="labelText">Bottom Label Text (Optional)</label>
+            <input type="text" id="labelText" placeholder="e.g. Scan to Visit" value="Community Mapping Lab">
+        </div>
+
         <div class="size-group">
-            <label>Size: <span class="size-value" id="sizeValue">256</span>px</label>
+            <label>Label Text Size: <span class="size-value" id="textSizeValue">16</span>px</label>
+            <input type="range" id="textSize" min="10" max="48" value="16" step="2">
+        </div>
+
+        <div class="size-group">
+            <label>QR Size: <span class="size-value" id="sizeValue">256</span>px</label>
             <input type="range" id="size" min="128" max="512" value="256" step="32">
         </div>
 
@@ -275,12 +290,13 @@
             <div class="empty-state">Your QR code will appear here</div>
         </div>
 
+        <!-- Hidden container used strictly to generate raw QR before merging label -->
+        <div id="tempQrHolder"></div>
+
         <button class="download-btn" id="downloadBtn" onclick="downloadQR()" disabled>Download PNG</button>
     </div>
 
     <script>
-        let qrcode = null;
-
         // Sync color picker → hex input
         function syncPickerToHex(pickerId, hexId) {
             document.getElementById(pickerId).addEventListener('input', function() {
@@ -305,10 +321,13 @@
 
         function generateQR() {
             const text = document.getElementById('text').value;
+            const labelText = document.getElementById('labelText').value.trim();
+            const fontSize = parseInt(document.getElementById('textSize').value);
             const size = parseInt(document.getElementById('size').value);
             const fgColor = document.getElementById('fgHex').value;
             const bgColor = document.getElementById('bgHex').value;
             const qrcodeDiv = document.getElementById('qrcode');
+            const tempHolder = document.getElementById('tempQrHolder');
             const downloadBtn = document.getElementById('downloadBtn');
             
             if (!text) {
@@ -316,16 +335,16 @@
                 return;
             }
 
-            // Validate hex colors
             if (!/^#[0-9A-Fa-f]{6}$/.test(fgColor) || !/^#[0-9A-Fa-f]{6}$/.test(bgColor)) {
                 alert('Please enter valid hex color codes (e.g. #1F0603)');
                 return;
             }
 
-            // Clear previous content
+            tempHolder.innerHTML = '';
             qrcodeDiv.innerHTML = '';
 
-            qrcode = new QRCode(qrcodeDiv, {
+            // 1. Generate base QR code off-screen
+            new QRCode(tempHolder, {
                 text: text,
                 width: size,
                 height: size,
@@ -334,27 +353,48 @@
                 correctLevel: QRCode.CorrectLevel.H
             });
 
+            // Allow QRCode library time to append image/canvas DOM element
             setTimeout(() => {
+                const qrElement = tempHolder.querySelector('canvas') || tempHolder.querySelector('img');
+                if (!qrElement) return;
+
+                // Calculate Canvas Height with Text Padding
+                const padding = 15;
+                const textMargin = labelText ? (fontSize + padding) : 0;
+                const finalCanvas = document.createElement('canvas');
+                finalCanvas.width = size;
+                finalCanvas.height = size + textMargin;
+
+                const ctx = finalCanvas.getContext('2d');
+
+                // Fill Background
+                ctx.fillStyle = bgColor;
+                ctx.fillRect(0, 0, finalCanvas.width, finalCanvas.height);
+
+                // Draw QR Code
+                ctx.drawImage(qrElement, 0, 0, size, size);
+
+                // Draw Label Text
+                if (labelText) {
+                    ctx.fillStyle = fgColor;
+                    ctx.font = `600 ${fontSize}px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif`;
+                    ctx.textAlign = 'center';
+                    ctx.textBaseline = 'middle';
+                    ctx.fillText(labelText, size / 2, size + (textMargin / 2));
+                }
+
+                qrcodeDiv.appendChild(finalCanvas);
                 downloadBtn.disabled = false;
-            }, 300);
+            }, 100);
         }
 
         function downloadQR() {
             const canvas = document.querySelector('#qrcode canvas');
-            const img = document.querySelector('#qrcode img');
-            const qrElement = canvas || img;
-            if (!qrElement) return;
-
-            const size = canvas ? canvas.width : parseInt(document.getElementById('size').value);
-            const tempCanvas = document.createElement('canvas');
-            tempCanvas.width = size;
-            tempCanvas.height = size;
-            const ctx = tempCanvas.getContext('2d');
-            ctx.drawImage(qrElement, 0, 0, size, size);
+            if (!canvas) return;
 
             const link = document.createElement('a');
-            link.download = 'qrcode.png';
-            link.href = tempCanvas.toDataURL('image/png');
+            link.download = 'qrcode-with-text.png';
+            link.href = canvas.toDataURL('image/png');
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
@@ -364,7 +404,15 @@
             document.getElementById('sizeValue').textContent = this.value;
         });
 
+        document.getElementById('textSize').addEventListener('input', function() {
+            document.getElementById('textSizeValue').textContent = this.value;
+        });
+
         document.getElementById('text').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') generateQR();
+        });
+
+        document.getElementById('labelText').addEventListener('keypress', function(e) {
             if (e.key === 'Enter') generateQR();
         });
 
